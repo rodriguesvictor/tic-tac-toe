@@ -1,9 +1,13 @@
 import React from 'react'
+import './styles.css';
 
 const Menu = () => {
   return (
-    <div>Menu</div>
+    <a href="#menu"
+      className="menu-game">
+      <span className="center">Menu</span>
+    </a>
   )
 }
 
-export default Menu
+export default Menu;
