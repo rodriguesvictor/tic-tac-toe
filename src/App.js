@@ -6,8 +6,9 @@ function App() {
 	return (
 		<>
 		<Header />
-		<Card />
+		<Card>
 		<Player player='o'/> 
+		</Card>
 		</>
 	);
 }
