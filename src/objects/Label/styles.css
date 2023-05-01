@@ -1,0 +1,6 @@
+.label {
+    color: var(--color-fourth);
+    font-size: var(--size-small);
+    text-decoration: none;
+    font-weight: bold;
+}

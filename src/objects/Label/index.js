@@ -3,7 +3,7 @@ import './styles.css';
 
 const Label = ({content}) => {
     return (
-            <label htmlFor="label" >{content}</label>
+            <label className='label' htmlFor="label" >{content}</label>
     )
 }
 
