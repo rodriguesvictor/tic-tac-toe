@@ -1,8 +1,12 @@
 import React from 'react'
+import Label from '../Label';
 
-const Input = ({value}) => {
+const Input = ({value, id, content}) => {
     return (
-        <input type='checkbox' name='input' value={value} />
+        <>
+        <input type='checkbox' id={id} value={value} />
+        <Label htmlFor={id}content={content}/>
+        </>
     )
 }
 

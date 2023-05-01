@@ -1,9 +1,9 @@
 import React from 'react';
 import './styles.css';
 
-const Label = ({content}) => {
+const Label = ({content, htmlFor}) => {
     return (
-            <label className='label' htmlFor="input" >{content}</label>
+            <label className='label' htmlFor={htmlFor}>{content}</label>
     )
 }
 
