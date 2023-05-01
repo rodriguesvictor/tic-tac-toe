@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+import './styles/settings/sizes.css';
 import './styles/settings/colors.css';
 import './styles/settings/spacings.css';
 import './styles/generic/reset.css';
