@@ -1,12 +1,8 @@
 import React from 'react'
-import Label from '../Label';
 
-const Input = ({value = "", id = "", content = "", type = "text"}) => {
+const Input = ({value = "", id = "", type = "text"}) => {
     return (
-        <>
         <input type={type} id={id} value={value} />
-        <Label htmlFor={id}content={content}/>
-        </>
     )
 }
 
