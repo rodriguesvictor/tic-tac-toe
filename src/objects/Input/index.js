@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Input = () => {
+const Input = ({value}) => {
     return (
-        <input type='checkbox' name='input' />
+        <input type='checkbox' name='input' value={value} />
     )
 }
 
